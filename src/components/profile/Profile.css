@@ -1,0 +1,69 @@
+.Profile {
+    padding: 10px 30px;
+    font-size: 12px;
+    width: 100%;
+    overflow: auto;
+}
+
+.Profile h2 {
+    color: #233245
+}
+
+.ProfileButton {
+    position: relative;
+    float: right;
+    margin-top: -50px;
+}
+
+.Pic-Row {
+    margin-top: 80px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.Pic-Row img {
+    width: 60px;
+    height: 60px;
+}
+
+.Pic-Row label {
+    color: #6b6c6f;
+}
+
+.Row {
+    margin-top: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.Row label {
+    color: #6b6c6f;
+}
+
+@media(min-width: 600px) {
+    .Profile {
+        padding: 10px 80px;
+        font-size: 14px;
+        width: 80%;
+    }
+    .ProfileButton {
+        margin-top: -70px;
+        padding: 0px 10px;
+    }
+    
+    .Pic-Row {
+        padding: 20px 0px;
+        border-bottom: 1px solid #cccccc;
+    }
+    
+    .Pic-Row img {
+        width: 80px;
+        height: 80px;
+        margin-left: -20px;
+    }
+    
+    .InputContainer {
+        margin-left: 100px;
+        align-content: left;
+        display: inline-block;
+    }
+}
